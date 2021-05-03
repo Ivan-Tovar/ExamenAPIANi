@@ -23,7 +23,7 @@
 <link href="/path/to/css//css/fileinput-rtl.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: black;">
     <header>
         <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #4eb8e2" >
@@ -61,49 +61,73 @@
       </p>
     </div>
     
-    <div dir=rtl class="file-loading"> <!-- note the direction if you want to display file-loading indicator -->
-        <!-- note that your input must just set the `rtl` data property of the plugin or in your javascript code -->
-        <input id="input-b8" name="input-b8[]" multiple type="file">
+    <!-- Carga de imágenes -->
+    <div class="col-md-5 offset-md-1">
+      <div class="jumbotron col-md-12 ">
+          <div class="row">
+              <div class="input-group">
+                  <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="file"
+                          aria-describedby="inputGroupFileAddon01" onchange="ver()" >
+                      <label class="custom-file-label" for="inputGroupFile01"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
     </div>
-    <script>
-    $(document).ready(function() {
-        $("#input-b8").fileinput({
-            rtl: true,
-            dropZoneEnabled: false,
-            allowedFileExtensions: ["jpg", "png", "gif"]
-        });
-    });
-    </script>
-
-  </div>
+</div>
 </left>
 
 <left>
-    <br><br><br><br>
+    <br><br>
 <div class="card" style="width: 35rem" style="color: black">
      <!--<img src="lluvia.gif" class="card-img-top" alt="..."/>-->
-    <div class="container">
+  <!--  <div class="container">
         <div class="ball"></div>
         <div type="button" id="botoon" class="btn btn-dark btn-rounded"></div>
-    </div>
+    </div>-->
     <div class="card-body">
       <p class="card-text">
         <b>Comandos de Voz ...</b><br>
-       
+        Diga el comando de Voz que desee para poder animar la imagen
+        <div class="container">
+          <form action="" method="get" target="_blank" id="search-form">
+              <input name="q" type="text" placeholder="Buscador" autocomplete="off" autofocus>
+          <!--<button type="button"><i class="fas fa-microphone"></i></button> -->
+          </form>
+          <div class="card-body">
+            <p class="card-text">
+              <b>Ayuda del sitio</b><br>
+              <b>Salir del sitio ...</b><br>
+              <b>Rebote ...</b><br>
+              <b>Desenfoque ...</b><br>
+              <b>Deslizar a la izquierda ...</b><br>
+              <b>Encogerse ...</b><br>
+              <b>Minimizar y maximizar ...</b><br>
+              <b>Dezlizar hacia abajo ...</b><br>
+              <b>Agrandamiento ...</b><br>
+              <b>Maximizar ...</b><br>
+              <b>Volteo ...</b><br>
+              <b>Delizar hacia arriba ...</b><br> 
+            </p>
+          </div>
+
+          <p class="info"></p>
+        </div>
       </p>
     </div>
   </div>
 </left>
-<br><br><br><br>
+<br><br>
 
  <!-- Animaciones. -->
- <right>
+ <center>
  <div class="jumbotron col-md-4 offset-md-1">
     <h3>ZONA DE ANIMACIÓN</h3>
     <br><br><br>
     <img class="rounded mx-auto d-block img-thumbnail ball" style="max-height: 250px;" id="img" >
 </div></div></section></div>
-</right>
+</center>
 
 <!-- Footer. -->
 <footer class="bg-light text-center text-white">
