@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMNE IHC</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+<!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"> 
+      <!-- Archivo Js  -->
+    <script src="main.js" defer></script>
+    <!-- Importacion de librerias  -->
+    <script src="just-animate-all.min.js"></script>
+    <script src="just-animate-web.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.5/web-animations.min.js"></script>
+    <script src="just-animate-extras.min.js"></script>
+    <script src="just-animate-extras.min.js"></script>
+    <link href="/path/to/css//css/fileinput.min.css" rel="stylesheet">
+<link href="/path/to/css//css/fileinput-rtl.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #4eb8e2" >
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" style="color: black" href="index.html"> <b>Examen Animaciones por Comandos de Voz </b>
+        &nbsp &nbsp  
+        </a>
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+</nav>
+</header>
+
+
+<left>
+    <br><br>
+<div class="card" style="width: 40rem" style="color: black">
+     <!--<img src="lluvia.gif" class="card-img-top" alt="..."/>-->
+    <div class="card-body">
+      <p class="card-text">
+        <b>Carga de Imagenes ...</b><br>
+        Seleccione la imagen de su preferencia para animarala 
+      </p>
+    </div>
+    
+    <div dir=rtl class="file-loading"> <!-- note the direction if you want to display file-loading indicator -->
+        <!-- note that your input must just set the `rtl` data property of the plugin or in your javascript code -->
+        <input id="input-b8" name="input-b8[]" multiple type="file">
+    </div>
+    <script>
+    $(document).ready(function() {
+        $("#input-b8").fileinput({
+            rtl: true,
+            dropZoneEnabled: false,
+            allowedFileExtensions: ["jpg", "png", "gif"]
+        });
+    });
+    </script>
+
+  </div>
+</left>
+
+<left>
+    <br><br><br><br>
+<div class="card" style="width: 35rem" style="color: black">
+     <!--<img src="lluvia.gif" class="card-img-top" alt="..."/>-->
+    <div class="container">
+        <div class="ball"></div>
+        <div type="button" id="botoon" class="btn btn-dark btn-rounded"></div>
+    </div>
+    <div class="card-body">
+      <p class="card-text">
+        <b>Comandos de Voz ...</b><br>
+       
+      </p>
+    </div>
+  </div>
+</left>
+<br><br><br><br>
+
+ <!-- Animaciones. -->
+ <right>
+ <div class="jumbotron col-md-4 offset-md-1">
+    <h3>ZONA DE ANIMACIÓN</h3>
+    <br><br><br>
+    <img class="rounded mx-auto d-block img-thumbnail ball" style="max-height: 250px;" id="img" >
+</div></div></section></div>
+</right>
+
+<!-- Footer. -->
+<footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="https://www.facebook.com/ivan.hinojsatovar"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="https://www.instagram.com/ivantovarssj/"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Github -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #333333;"
+          href="https://github.com/Ivan-Tovar"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Hinojosa Tovar Ivan</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.6.2/web-animations.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.6.2/just-animate-all.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.6.2/just-animate-tools.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
