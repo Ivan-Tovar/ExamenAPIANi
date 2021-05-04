@@ -57,7 +57,7 @@ if (SpeechRecognition) {
       searchFormInput.value = transcript;
     }
       
-      else if (transcript.toLowerCase().trim() === "Rebote") {
+      else if (transcript.toLowerCase().trim() === "rebote") {
         var t1 = just.animate({
             targets: "#img",
             duration: 1300,
@@ -76,7 +76,7 @@ if (SpeechRecognition) {
          t1.play();
          just.tools.player(t1);
       }
-      else if (transcript.toLowerCase().trim() === "Desenfoque") {
+      else if (transcript.toLowerCase().trim() === "desenfoque") {
 
         var t2 = just.animate({
             targets: "#img",
@@ -92,7 +92,7 @@ if (SpeechRecognition) {
          t2.play()
          just.tools.player(t2);
       }
-      else if (transcript.toLowerCase().trim() === "Deslizar a la izquierda") {
+      else if (transcript.toLowerCase().trim() === "deslizar a la izquierda") {
 
         var t3 = just.animate({
             targets: "#img",
@@ -105,7 +105,7 @@ if (SpeechRecognition) {
          t3.play()
          just.tools.player(t3);
       }
-      else if (transcript.toLowerCase().trim() === "Encogerse") {
+      else if (transcript.toLowerCase().trim() === "encogerse") {
         var t4 = just.animate({
             targets: "#img",
             duration: 1500,
@@ -129,7 +129,7 @@ if (SpeechRecognition) {
          t4.play();
          just.tools.player(t4);
       }
-      else if (transcript.toLowerCase().trim() === "Minimizar y maximizar") {
+      else if (transcript.toLowerCase().trim() === "minimizar y maximizar") {
 
         var t7 = just.animate({
             targets: "#img",
@@ -163,7 +163,7 @@ if (SpeechRecognition) {
          t7.play();
          just.tools.player(t7);
       }
-      else if (transcript.toLowerCase().trim() === "Dezlizar hacia abajo") {
+      else if (transcript.toLowerCase().trim() === "dezlizar hacia abajo") {
 
         var t8 = just.animate({
             targets: "#img",
@@ -187,7 +187,7 @@ if (SpeechRecognition) {
          t8.play();
          just.tools.player(t8);
       }
-      else if (transcript.toLowerCase().trim() === "Agrandamiento") {
+      else if (transcript.toLowerCase().trim() === "agrandamiento") {
 
         var t11 = just.animate({
             targets: "#img",
@@ -199,7 +199,7 @@ if (SpeechRecognition) {
          t11.play();
          just.tools.player(t11);
       }
-      else if (transcript.toLowerCase().trim() === "Maximizar") {
+      else if (transcript.toLowerCase().trim() === "maximizar") {
 
         var t6 = just.animate({
             targets: "#img",
@@ -226,7 +226,7 @@ if (SpeechRecognition) {
          t6.play();
          just.tools.player(t6);
       }
-      else if (transcript.toLowerCase().trim() === "Volteo") {
+      else if (transcript.toLowerCase().trim() === "volteo") {
 
         var t78 = just.animate({
             targets: "#img",
@@ -239,7 +239,7 @@ if (SpeechRecognition) {
          just.tools.player(t78);
          
       }
-      else if (transcript.toLowerCase().trim() === "Delizar hacia arriba") {
+      else if (transcript.toLowerCase().trim() === "delizar hacia arriba") {
 
         var t99 = just.animate({
             targets: "#img",
