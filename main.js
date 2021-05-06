@@ -292,7 +292,7 @@ else {
 }
 
 
-function ver(){
+function mostrarimg(){
     var archivo = document.getElementById("file").files[0];
     var reader = new FileReader();
     if (file) {
